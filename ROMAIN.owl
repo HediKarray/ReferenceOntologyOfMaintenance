@@ -1,0 +1,984 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN">
+    <Prefix name="" IRI="http://www.semanticweb.org/hedi/ontologies/2018/11/ROMAIN"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.ontologylibrary.mil/CommonCore/Mid/GeospatialOntology</Import>
+    <Import>http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl</Import>
+    <Import>http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology</Import>
+    <Import>http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl</Import>
+    <Import>http://www.obofoundry.org/ro/ro.owl</Import>
+    <Import>http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology</Import>
+    <Import>http://www.ontologylibrary.mil/CommonCore/Mid/TimeOntology</Import>
+    <Import>http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">H. KARRAY, F. AMERI, M.Hodkiewicz , T.Louge</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ROMAIN: Reference Ontology for industrial Maintenance</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_ROMAIN00000000ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000038ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000029ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000000ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000036ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000037ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000039ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000026ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000010ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000034ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000035ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000011ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000017ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000018ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000019ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000016ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000024ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000028ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000025ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000027ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000021ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000022ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000020ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000014ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000031ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000006ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000005ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000013ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000030ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000015ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000040ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#prescribes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000041ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000012ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000033ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000007ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000032ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000004ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000003ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000008ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000009ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000002ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_ROMAIN00000023ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ROMAIN00000001ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_ROMAIN00000025ROMAIN"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_ROMAIN00000024ROMAIN"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_ROMAIN00000013ROMAIN"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <Class IRI="#OWLClass_ROMAIN00000011ROMAIN"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_ROMAIN00000013ROMAIN"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <Class IRI="#OWLClass_ROMAIN00000011ROMAIN"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_ROMAIN00000014ROMAIN"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <Class IRI="#OWLClass_ROMAIN00000010ROMAIN"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_ROMAIN00000014ROMAIN"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <Class IRI="#OWLClass_ROMAIN00000010ROMAIN"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_ROMAIN00000015ROMAIN"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <Class IRI="#OWLClass_ROMAIN00000009ROMAIN"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_ROMAIN00000015ROMAIN"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <Class IRI="#OWLClass_ROMAIN00000009ROMAIN"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <Class IRI="#OWLClass_ROMAIN00000029ROMAIN"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <Class IRI="#OWLClass_ROMAIN00000032ROMAIN"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000000ROMAIN"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000001ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DateIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000002ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000002ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_ROMAIN00000023ROMAIN"/>
+            <Class IRI="#OWLClass_ROMAIN00000020ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000003ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000003ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#is_input_of"/>
+            <Class IRI="#OWLClass_ROMAIN00000033ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000003ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_ROMAIN00000023ROMAIN"/>
+            <Class IRI="#OWLClass_ROMAIN00000012ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000004ROMAIN"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000004ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#OWLClass_ROMAIN00000036ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000004ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#prescribes"/>
+            <Class IRI="#OWLClass_ROMAIN00000020ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000005ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000005ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_ROMAIN00000023ROMAIN"/>
+            <Class IRI="#OWLClass_ROMAIN00000006ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000006ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000006ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000136"/>
+            <Class IRI="#OWLClass_ROMAIN00000014ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000006ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#prescribes"/>
+            <Class IRI="#OWLClass_ROMAIN00000004ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000007ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000008ROMAIN"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000009ROMAIN"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000010ROMAIN"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000011ROMAIN"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000012ROMAIN"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000012ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_ROMAIN00000024ROMAIN"/>
+            <Class IRI="#OWLClass_ROMAIN00000000ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000013ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000013ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#OWLClass_ROMAIN00000014ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000014ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000014ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <Class IRI="#OWLClass_ROMAIN00000012ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000014ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000085"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000014ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+            <Class IRI="#OWLClass_ROMAIN00000016ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000014ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+            <Class IRI="#OWLClass_ROMAIN00000019ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000015ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000016ROMAIN"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000016ROMAIN"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#precedes"/>
+                <Class IRI="#OWLClass_ROMAIN00000019ROMAIN"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_output"/>
+                <Class IRI="#OWLClass_ROMAIN00000012ROMAIN"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000016ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#precedes"/>
+            <Class IRI="#OWLClass_ROMAIN00000019ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000016ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_output"/>
+            <Class IRI="#OWLClass_ROMAIN00000012ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000017ROMAIN"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000018ROMAIN"/>
+        <Class IRI="#OWLClass_ROMAIN00000017ROMAIN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000018ROMAIN"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+                <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#preceded_by"/>
+                <Class IRI="#OWLClass_ROMAIN00000022ROMAIN"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000018ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#affects"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000019ROMAIN"/>
+        <Class IRI="#OWLClass_ROMAIN00000017ROMAIN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000019ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#precedes"/>
+            <Class IRI="#OWLClass_ROMAIN00000022ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000020ROMAIN"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000020ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#OWLClass_ROMAIN00000026ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000021ROMAIN"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000021ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_output"/>
+            <Class IRI="#OWLClass_ROMAIN00000003ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000021ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#occurs_on"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000022ROMAIN"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000022ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#precedes"/>
+            <Class IRI="#OWLClass_ROMAIN00000018ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000024ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#CodeIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000025ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#CodeIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000026ROMAIN"/>
+        <Class IRI="#OWLClass_ROMAIN00000020ROMAIN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000026ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OWLObjectProperty_ROMAIN00000025ROMAIN"/>
+            <Class IRI="#OWLClass_ROMAIN00000012ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000027ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#CodeIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000028ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#CodeIdentifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000029ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000030ROMAIN"/>
+        <Class IRI="#OWLClass_ROMAIN00000029ROMAIN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000031ROMAIN"/>
+        <Class IRI="#OWLClass_ROMAIN00000029ROMAIN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000032ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#MeasurementInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000033ROMAIN"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000034ROMAIN"/>
+        <Class IRI="#OWLClass_ROMAIN00000006ROMAIN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000034ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#prescribes"/>
+            <Class IRI="#OWLClass_ROMAIN00000004ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000035ROMAIN"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000035ROMAIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_output"/>
+            <Class IRI="#OWLClass_ROMAIN00000006ROMAIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000036ROMAIN"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DirectiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000037ROMAIN"/>
+        <Class IRI="#OWLClass_ROMAIN00000006ROMAIN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000038ROMAIN"/>
+        <Class IRI="#OWLClass_ROMAIN00000006ROMAIN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000039ROMAIN"/>
+        <Class IRI="#OWLClass_ROMAIN00000006ROMAIN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000040ROMAIN"/>
+        <Class IRI="#OWLClass_ROMAIN00000006ROMAIN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ROMAIN00000041ROMAIN"/>
+        <Class IRI="#OWLClass_ROMAIN00000006ROMAIN"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <Class IRI="#OWLClass_ROMAIN00000017ROMAIN"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_ROMAIN00000005ROMAIN"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ROMAIN00000000ROMAIN"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000000ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An IAO:information content entity that prescribes a need or expectation to be met</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000000ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Requirement Specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000001ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Start Day</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000002ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An IAO:information content entity describing a desired ROM:Maintenance Action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000002ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maintenance Work Order Specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000003ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An IAO:information content entity describing a ROM:Non-conformity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000003ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maintenance Notification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000004ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An IAO:plan specification containing Maintenance Strategies and
+Maintenance Standard Work Procedures for a ROM:Maintainable Item
+over its lifecycle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000004ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maintenance Plan Specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000005ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An IOA:information content entity describing the ROM:Maintenance
+Strategy Type to manage a specific functional failure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000005ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maintenance Strategy Specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000006ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An IAO:information content entity resulting from ROM:maintenance strategy development process for a ROM:Maintainable Item.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000006ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maintenance Strategy Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000007ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An IOA:information content entity describing a list of ROM:Maintenance Work Order Specification to be executed in a defined BFO:one-dimensional temporal region (i.e. temporal interval).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000007ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maintenance Schedule List</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000008ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An IAO:plan specification that describes the steps required for a specific
+ROM:Maintenance Action.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000008ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Standard Work Procedure Specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000009ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A BFO:role that is borne by an CCO:artifact(s) when it becomes a part
+of another BFO:material entity, to provide a particular BFO:function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000009ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Component Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000010ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A BFO:role borne by a group of one or more CCO:artifact(s) as an
+output of a ROM:Maintenance Strategy Process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000010ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maintainable Item Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000011ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A BFO:role that is borne by an CCO:artifact to deliver potential or actual value to an CCO:organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000011ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Asset Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000012ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A BFO:specifically dependent continuant that inheres in a material entity
+and deviates from a design specification.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000012ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nonconformity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000013ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Asset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000014ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maintainable Item</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000015ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000016ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A BFO:process that results in the loss of a desired quality or function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000016ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Process Of Degradation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000017ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A BFO:Process in which some BFO:independent continuant endures and one or more of the dependent entities it bears does not change in kind or intensity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000017ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">State</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000018ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A ROM:state during which a CCO:artifact is unable to perform its BFO:function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000018ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">State Of Failure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000019ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A ROM:state during which a CCO:artifact bears an undesirable BFO:quality or BFO:function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000019ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">State Of Degradation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000020ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A BFO:process to perform work on a CCO:artifact according to a ROM:Maintenance Work Order Specification.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000020ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maintenance Action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000021ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A BFO:process resulting in an action.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000021ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Triggering Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#OWLClass_ROMAIN00000022ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A BFO:process that precedes the ROM:State of Failure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000022ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Failure Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000024ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Location Code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000025ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Order Number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000026ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maintenance Task</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000027ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Order Type Code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000028ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System Status Code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000029ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cost measurment ICE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000030ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Actual Cost</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000031ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Planned Cost</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000032ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Time measurement ICE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000033ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maintenance Planning Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000034ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fixed Interval Repair Strategy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000035ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maintenance Strategy Development Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000036ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maintenance Time Interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000037ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Failure Finding Maintenance Strategy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000038ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Modification Maintenance Strategy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000039ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">On Condition Maintenance Startegy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000040ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Run-To-Failure Maintenance Strategy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ROMAIN00000041ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Schedule Restoration Maintenance Strategy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_ROMAIN00000000ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">strategy spec1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLObjectProperty_ROMAIN00000023ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">For all Types T1 and T2, if T1 describes T2 then there is some instance
+of T1, t1 that presents the characteristics by which some instance of T2,
+t2 can be recognized or visualized.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_ROMAIN00000023ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">describes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#OWLObjectProperty_ROMAIN00000024ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A relation between a continuant and a directive ICE in which the continuant
+does not fulfill the directions expressed in the directive ICE.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_ROMAIN00000024ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">violates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#OWLObjectProperty_ROMAIN00000025ROMAIN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a relation between an occurrent and a dependent continuant in which the
+dependent continuant is the reason to the appearance of the occurent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_ROMAIN00000025ROMAIN</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has subject</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
